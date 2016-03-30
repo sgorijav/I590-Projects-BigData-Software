@@ -1,0 +1,5 @@
+---
+- hosts: sgorijav-hosts
+  remote_user: root
+  roles:
+    - mongodb
